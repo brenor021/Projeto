@@ -1,0 +1,33 @@
+<div class="banner">
+    <h1></h1>
+</div>
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center"> PC Gamer </h1>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let pc of pcdata">
+            <div class="pcbox">
+                <img src="{{pc.pcImg}}"/>
+                <h1>{{pc.pcName}}</h1>
+                <p>R${{pc.pcPreco}} à vista</p>
+                <P id="juros">{{pc.pcjuros}}</P>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center"> Cadeiras Gamer </h1>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let cd of cdData">
+            <div class="pcbox">
+                <img src="{{cd.cdImg}}"/>
+                <h1>{{cd.cdName}}</h1>
+                <p>R${{cd.cdPreco}} à vista</p>
+                <P id="juros">{{cd.cdjuros}}</P>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+</div>

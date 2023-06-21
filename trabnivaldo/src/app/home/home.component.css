@@ -1,0 +1,48 @@
+.banner{
+    background-image: url(../../assets/banner2.png);
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+
+.pcbox{
+    padding: 10px 5px;
+}
+
+.pcbox img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.pcbox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.pcbox p{
+    font-size: 20px;
+    color: rgb(4, 206, 4);
+}
+
+#juros{
+    color: black;
+    font-size: 15px;
+}
+
+.pcbox button {
+    background-color: #4CAF50;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
